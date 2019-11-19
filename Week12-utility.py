@@ -30,3 +30,7 @@ def ScoreFinder(list1, list2, string):
 def Union(list1, list2):
     joined_list = list1 + list2
     return joined_list
+
+def Intersection(list1, list2):
+    inter = list(set(list1) & set(list2))
+    return inter
